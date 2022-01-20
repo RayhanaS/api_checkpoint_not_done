@@ -1,0 +1,17 @@
+1-  create -react -a pp called learn_api
+2-  create 2 folders under src  :  Components and Pages
+3-   Components will contain : Footer.js, NavBAr.js, PostCard.js,  Postslist, SingleUSer.js, UserCArd.js, and UsersList.js
+4-   Pages will contain About.js ,  Error.js,  Home.js and UserDetails.js
+5-   install react router dom and axios  ,  bootstrap  react  bootstrap
+6-   UserList have the Usercard as a child && we will import a spinner from bootstrap in UserList
+7-   UserDetails  have 2 children : SingleUSer and PostsList
+8-   PostsList  have a PostCard as a child.
+9-   we will use react-router to switch between components.
+10-  Userlist is a child of Home.js
+11-  we will use axios in Home.js to fetch this API  : https://jsonplaceholder.typicode.com/users .
+
+12-  we will use axios  these TWO API to fetch them in UserDetails.js
+https://jsonplaceholder.typicode.com/users/$%7Bid%7D
+https://jsonplaceholder.typicode.com/users/$%7Bid%7D/posts
+
+13-  we will use the conditionnal rendering to show the spinner while waiting for Data to be fetched..
